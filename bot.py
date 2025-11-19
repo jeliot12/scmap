@@ -19,7 +19,7 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO)
 
 # bot token
-BOT_TOKEN = "8543365806:AAFKxgliQWlzNQmS-lQLVMXBAT1_3lk5hLI"
+BOT_TOKEN = "8543365806:AAEchDlpvOW9LC37l8pmMtZz7KiuOI788Ls"
 
 storage = MemoryStorage()
 bot = Bot(token=BOT_TOKEN)
@@ -1386,4 +1386,5 @@ async def show_deal_to_buyer_edit(message, deal, lang="ru"):
         logging.error(f"Ошибка при редактировании сообщения: {e}")
 
 if __name__ == "__main__":
+
     asyncio.run(main())
